@@ -97,6 +97,16 @@ Note: Ask the students, hopefully lead to next slide about issues and bugfixes
 
 Note: The work never stops, but now more people are finding bugs, suggesting patches, improving the code.
 
+----
+
+## Make your own package
+
+- [setuptools/setup.py](https://setuptools.pypa.io/en/latest/userguide/quickstart.html)
+- [PEP 517](https://peps.python.org/pep-0517/)
+- [snowfake - an example PEP 517 package](https://github.com/agilescientific/snowfake)
+
+Note: We used the traditional `setuptools` way of packaging using a `setup()` function within a `setup.py` script in `wellpathpy`. `snowfake` is an example repo and package that uses the new `PEP 517` approach.
+
 ---
 
 ## Thank you!

@@ -22,13 +22,7 @@ We could have:
 2. Added to [welly](https://code.agilescientific.com/welly/)
 3. Start a new [pypi project](https://pypi.org/project/wellpathpy/)
 
-Note: There are several things to consider: (1) Writing a script or notebook is
-fine locally but does not solve the problem **for all users**, (2) adding to an
-existing library is **non-trivial** and you then **depend on the maintainers
-good will** and any future **breaking code**, (3) in the unix philosopy, as in
-functional programming, it is good practise to have **pure functions** (i.e.
-functions that (1) return identical values for identical inputs and (2) have no
-side-effects) and programs that perform only **one task**
+Note: There are several things to consider: (1) Writing a script or notebook is fine locally but does not solve the problem **for all users**, (2) adding to an existing library is **non-trivial** and you then **depend on the maintainers good will** and any future **breaking code**, (3) in the unix philosopy, it is good practice to have programs that perform only **one task**; just like in programming, it is good practise to have **pure functions** (i.e. functions that (a) return identical values for identical inputs and (b) have no side-effects).
 
 ---
 

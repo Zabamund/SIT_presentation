@@ -99,6 +99,16 @@ Note: The work never stops, but now more people are finding bugs, suggesting pat
 
 ----
 
+## [Deviation #161](https://github.com/agilescientific/welly/pull/161)
+
+> With this PR, Welly learns to use wellpathpy to handle deviation data and generate position logs.
+
+!['Merge #161'](./images/merge_161.png)
+
+Note: This was the crowning success of `wellpathpy`, initially not wanted by the maintainers of `welly`, it is now a dependency of that library and is relied upon to handle well deviations.
+
+----
+
 ## Make your own package
 
 - [setuptools/setup.py](https://setuptools.pypa.io/en/latest/userguide/quickstart.html)
